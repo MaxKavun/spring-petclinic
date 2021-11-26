@@ -16,5 +16,5 @@ COPY --from=1 /app/target/*.jar /app
 # .jar file name
 #RUN ls
 
-CMD ["java","-jar","spring-petclinic-2.2.0.BUILD-SNAPSHOT.jar"] 
+CMD ["java","-jar","spring-petclinic-2.5.0-SNAPSHOT.jar"] 
 

@@ -16,6 +16,7 @@ spec:
       containers:
       # modify the following line with your Docker Hub account name
       - image: 673907469822.dkr.ecr.eu-west-1.amazonaws.com/pets:latest
+        command: ["java","-jar","spring-petclinic-2.5.0-SNAPSHOT.jar"]
         name: spring-petclinic
         ports:
         - containerPort: 8080
